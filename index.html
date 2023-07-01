@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Web Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    p {
+      color: #666;
+      line-height: 1.5;
+    }
+  </style>
+  <script>
+    function Password()
+      {
+        document.GetElementById('pass').innerHTML = "123";
+      }
+  </script>
+</head>
+<body>
+  <h1>Welcome to My Web Page</h1>
+  <p id="pass">This is a sample web page served by NGINX.</p>
+  <button onclick="Password()"></button>
+</body>
+</html>
